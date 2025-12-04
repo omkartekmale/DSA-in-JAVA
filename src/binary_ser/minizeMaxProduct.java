@@ -26,7 +26,7 @@ public class minizeMaxProduct {
                 hi=mid-1;
             }
             else lo=mid+1;
-        }gi
+        }
         System.out.println(ans);
     }
 }
