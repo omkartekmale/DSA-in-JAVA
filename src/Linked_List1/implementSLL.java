@@ -41,7 +41,7 @@ class SLL{
             return;
         }
         Node x=head;
-        for(int i=1;i<=idx-1;i++){
+        for(int i=1;i<idx;i++){
             x=x.next;
         }
         temp.next=x.next;
@@ -117,7 +117,6 @@ public class implementSLL {
 
 
         System.out.println(ll.get(0));
-
         ll.set(-1,18);
         ll.print();
 

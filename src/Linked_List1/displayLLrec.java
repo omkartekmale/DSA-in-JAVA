@@ -1,6 +1,7 @@
 package Linked_List1;
 
 public class displayLLrec {
+
     public static void print(Node a){
         Node temp=a;
         while(temp!=null){

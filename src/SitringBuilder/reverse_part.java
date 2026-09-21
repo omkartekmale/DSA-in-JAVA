@@ -30,6 +30,10 @@ public class reverse_part {
 
             }
         revers(sb,i,j-1);
-        System.out.println(sb);
+        System.out.println(sb.reverse());
+        System.out.println();
+        String s="hello";
+        s=s.substring(0,2)+'y'+s.substring(3);
+        System.out.println(s);
     }
 }

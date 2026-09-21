@@ -11,8 +11,6 @@ public class subset {
         }
         sunsett(i+1,s,ans);
         sunsett(i+1,s,ans+s.charAt(i));
-
-
     }
 
     public static void main(String[] args) {

@@ -5,7 +5,6 @@ public class addingone {
         int [] arr={1,2,3,4};
         int sum=arr[arr.length-1];
         for(int i=arr.length-2;i>=0;i--){
-            
             sum+=arr[i];
             System.out.println(sum+" ");
         }
